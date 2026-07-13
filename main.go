@@ -1,7 +1,8 @@
 package main
 
+var name string
+var age int
+
 func main() {
-	var name string
-	var age int
 	name, age = "jack", 1
 }
