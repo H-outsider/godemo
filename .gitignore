@@ -1,0 +1,30 @@
+# 1. 屏蔽各类写代码软件自动生成的配置文件夹（重点！）
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# 2. 屏蔽 Mac 或 Windows 系统自动生成的垃圾文件
+.DS_Store
+Thumbs.db
+
+# 3. 屏蔽 Go 语言编译出来的可执行文件（根据你图里的代码）
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+
+# 4. 屏蔽其他常见开发环境的编译产物或依赖（比如前后端项目常用的）
+target/
+*.jar
+*.war
+node_modules/
+dist/
+
+# 5. 屏蔽包含密码或本地环境变量的敏感文件
+.env
+*.local
